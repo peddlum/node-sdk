@@ -11,9 +11,9 @@
       "types": "./dist/index.d.ts"
     },
     "./browser": {
-      "import": "./dist/browser/index.js",
-      "require": "./dist/browser/index.js",
-      "types": "./dist/browser/index.d.ts"
+      "import": "./dist/browser/browser/index.js",
+      "require": "./dist/browser/browser/index.js",
+      "types": "./dist/browser/browser/index.d.ts"
     }
   },
   "scripts": {
