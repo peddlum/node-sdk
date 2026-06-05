@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PEDDLUM_BASE_URL = exports.isRateLimited = exports.isNotFound = exports.isAuthError = exports.PeddlumError = exports.RealtimeClient = exports.VideoConferencingClient = exports.PaymentClient = exports.SearchClient = exports.VectorClient = exports.ChatbotClient = exports.AiKeysClient = exports.AiClient = exports.PushClient = exports.EmailClient = exports.StorageClient = exports.QueryClient = exports.QueryBuilder = exports.AuthClient = exports.PeddlumClient = void 0;
+exports.PEDDLUM_BASE_URL = exports.isRateLimited = exports.isNotFound = exports.isAuthError = exports.PeddlumError = exports.RealtimeClient = exports.VideoConferencingClient = exports.PaymentClient = exports.SearchClient = exports.VectorClient = exports.createChatbotClient = exports.ChatbotClient = exports.AiKeysClient = exports.AiClient = exports.PushClient = exports.EmailClient = exports.StorageClient = exports.QueryClient = exports.QueryBuilder = exports.AuthClient = exports.PeddlumClient = void 0;
 var peddlum_client_1 = require("./peddlum-client");
 Object.defineProperty(exports, "PeddlumClient", { enumerable: true, get: function () { return peddlum_client_1.PeddlumClient; } });
 // Auth module
@@ -26,6 +26,7 @@ Object.defineProperty(exports, "AiKeysClient", { enumerable: true, get: function
 // Chatbot module
 var chatbot_1 = require("./chatbot");
 Object.defineProperty(exports, "ChatbotClient", { enumerable: true, get: function () { return chatbot_1.ChatbotClient; } });
+Object.defineProperty(exports, "createChatbotClient", { enumerable: true, get: function () { return chatbot_1.createChatbotClient; } });
 // Vector module
 var vector_1 = require("./vector");
 Object.defineProperty(exports, "VectorClient", { enumerable: true, get: function () { return vector_1.VectorClient; } });

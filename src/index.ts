@@ -85,7 +85,7 @@ export type {
 } from './ai';
 
 // Chatbot module
-export { ChatbotClient } from './chatbot';
+export { ChatbotClient, createChatbotClient } from './chatbot';
 export type {
   ChatbotConfig,
   ChatbotConfigPatch,
@@ -94,6 +94,9 @@ export type {
   SendMessageInput,
   SendMessageResult,
   UploadDocumentOptions,
+  ChatbotSessionClient,
+  ChatbotSessionOptions,
+  ChatSendResult,
 } from './chatbot';
 
 // Vector module
